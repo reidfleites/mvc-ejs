@@ -7,7 +7,7 @@
     <% sponsors.forEach(sponsor => { %>
         
         <li>name:<%=sponsor.name %></li>
-        <li>from:<%=sponsor.location %></li>
+        <li>location:<span><%=sponsor.location %></span></li>
     <% }) %>
 </ul>
 <%- include('_footer.ejs')%>

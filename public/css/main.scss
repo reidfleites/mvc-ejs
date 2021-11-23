@@ -23,6 +23,11 @@ body {
         display: flex;
         justify-content: space-between;
     }
+    ul{
+        span{
+            color: red;
+        }
+    }
     h2{
         color:red;
       }
@@ -32,5 +37,6 @@ body {
      li{
          color: yellow;
      }
+    
 
     }

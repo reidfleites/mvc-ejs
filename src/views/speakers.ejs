@@ -6,8 +6,8 @@
 <p>This page displays all the speakers at the conference.</p>
 <ul>
     <% speakers.forEach(speaker => { %>
-        <li>name:<%=speaker.name %></li>
-        <li>from:<%=speaker.country %></li>
+        <li>name:<%= speaker.name %></li>
+        <li>from:<span><%= speaker.country %></span></li>
     <% }) %>
 </ul>
 <%- include('_footer.ejs')%>

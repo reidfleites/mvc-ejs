@@ -30,6 +30,10 @@ body nav a.active {
   text-shadow: 2px 2px 2px #444;
 }
 
+body ul span {
+  color: red;
+}
+
 body h2 {
   color: red;
 }

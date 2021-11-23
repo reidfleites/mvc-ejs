@@ -6,7 +6,7 @@
 <ul>
     <% presentations.forEach(presentation => { %>
         <li>title:<%=presentation.title %></li>
-        <li>room:<%=presentation.room %></li>
+        <li>room:<span><%=presentation.room %></span></li>
     <% }) %>
 </ul>
 <%- include('_footer.ejs')%>
