@@ -1,4 +1,0 @@
-killall -s KILL  node
-mongoimport --db mongoConference --collection sponsors --type json --file conferenceSponsors.json --jsonArray
-
-mongoimport --host cluster0-shard-00-02.rctsh.mongodb.net:27017 --db mongoConference --collection presentations --type json --file conferencePresentations.json --jsonArray --authenticationDatabase admin --ssl --username user2
