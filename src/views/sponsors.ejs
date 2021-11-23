@@ -1,0 +1,13 @@
+<%- include('_header.ejs')%>
+<h2>
+    <%=pageTitle%>
+</h2>
+<p>This page displays all sponsors.</p>
+<ul>
+    <% sponsors.forEach(sponsor => { %>
+        
+        <li>name:<%=sponsor.name %></li>
+        <li>from:<%=sponsor.location %></li>
+    <% }) %>
+</ul>
+<%- include('_footer.ejs')%>

@@ -1,0 +1,28 @@
+
+<%- include('_header.ejs')%>
+<h2>
+    <%=pageTitle%>
+</h2>
+<p>Welcome to the Berlin Mongoose Conference.</p>
+<p>Our conference features <span><%= presenters%> </span> presenters and <span><%= presentations%> </span> presentations</p>
+
+<p>wir haben presenters from:</p>
+<ul>
+    <% countrys.forEach(country => { %>
+        
+        <li><%=country %></li>
+        
+    <% }) %>
+</ul>
+<p>wir haben  <span><%=totalInternationalSponsors%></span> international sponsors</p>
+<p> Please note that all presentations are located in rooms: </p>
+<ul>
+    <% rooms.forEach(room => { %>
+        
+        <li><%=room %></li>
+        
+    <% }) %>
+</ul>
+
+<%- include('_footer.ejs')%>
+

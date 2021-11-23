@@ -1,0 +1,26 @@
+[
+	{
+		"title": "From Zero-to-Mobile App in Minutes with Realm",
+		"room": "123A"
+	},
+	{
+		"title": "Combine-ing MongoDB Realm with SwiftUI",
+		"room": "023C"
+	},
+	{
+		"title": "Best Practices to Succeed with MongoDB Atlas",
+		"room": "222A"
+	},
+	{
+		"title": "Sequencing the Coronavirus Using MongoDB Atlas",
+		"room": "123A"
+	},
+	{
+		"title": "MongoDB Demo with Digital Ocean",
+		"room": "123A"
+	},
+	{
+		"title": "Multi-Cloud IoT Projects with MongoDB and PeerIslands",
+		"room": "222A"
+	}
+]

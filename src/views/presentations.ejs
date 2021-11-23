@@ -1,0 +1,12 @@
+<%- include('_header.ejs')%>
+<h2>
+    <%=pageTitle%>
+</h2>
+<p>This page displays all the presentations at the conference.</p>
+<ul>
+    <% presentations.forEach(presentation => { %>
+        <li>title:<%=presentation.title %></li>
+        <li>room:<%=presentation.room %></li>
+    <% }) %>
+</ul>
+<%- include('_footer.ejs')%>

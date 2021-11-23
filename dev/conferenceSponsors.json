@@ -1,0 +1,22 @@
+[
+	{
+		"name": "IBM",
+		"location": "international"
+	},
+	{
+		"name": "Microsoft",
+		"location": "international"
+	},
+	{
+		"name": "Mercedes",
+		"location": "Germany"
+	},
+	{
+		"name": "BMW",
+		"location": "Germany"
+	},
+	{
+		"name": "Renault",
+		"location": "France"
+	}
+]
